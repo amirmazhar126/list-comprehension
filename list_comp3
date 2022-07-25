@@ -1,0 +1,3 @@
+mylist = ['arun','vikas','singla']
+change = [(x[0:2].upper(),x[-2:].upper()) for x in mylist]
+print(change)
